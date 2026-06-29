@@ -35,8 +35,7 @@ $ systemctl status developer--profile
 ```json
 {
   "telegram": "@Karinka_404",
-  "linkedin": "linkedin.com/in/suslova-karina-8a36a4418",
   "email": "suslovakarina32@gmail.com",
-  "website": "https://[ссылка_на_сайт_визитку].dev"
+  "website": "https://kariandrrr.github.io/my-portfolio/"
 }
 ```
