@@ -6,29 +6,31 @@
 
 
 ```bash
-$ systemctl status developer--profile
-● developer--profile.service - Backend Developer Mind Matrix
-   Loaded: loaded (/etc/systemd/system/developer--profile.service; enabled)
+$ systemctl status data--pipeline
+● data--pipeline.service - Data Engineer Mind Matrix
+   Loaded: loaded (/etc/systemd/system/data--pipeline.service; enabled)
    Active: active (running) since 2025
-   Main PID: 2026 (Core Engine)
-   Status: "Compiling coffee into clean, scalable architecture..."
+   Main PID: 2026 (ETL Core Engine)
+   Status: "Transforming raw data chaos into clean analytical value..."
 ```
 
 🛠️ System Architecture
 ```tree
 └── 👤 profile
-    ├── ⚙️ core: Human 2.0 (Optimized for asynchronous multi-tasking)
-    ├── 🎯 focus: [Building bulletproof REST APIs, database optimization, secure authentication]
-    └── 📜 philosophy: "Go big, or go home... after checking the logs."
+    ├── ⚙️ core: Human 2.0 (Optimized for parallel data processing)
+    ├── 🎯 focus: [Building scalable ETL/ELT pipelines, data warehousing, stream processing]
+    └── 📜 philosophy: "In data we trust... after running data quality checks."
 ```
 
 💻 Tech Stack
 ```tree
-└── ⚙️ Production Environment
-    ├── 🐍 Core & API: Python / FastAPI / Pydantic
-    ├── 🗄️ Database Layer: PostgreSQL / SQLAlchemy (ORM) / Alembic (Migrations)
-    ├── 🔐 Security: JWT Authentication (RS256 Algorithm)
-    └── 🛠️ Tools & Testing: Dependency management via Poetry / Testing with Pytest / Git
+├── Languages: Python / SQL (PostgreSQL, MySQL)
+├── Data Engineering: ETL/ELT / Apache Airflow / PySpark (basic) / Query optimization
+├── Databases: PostgreSQL / MySQL / Alembic / SQLAlchemy
+├── Cloud & Storage: MinIO (API integration)
+├── Backend: FastAPI / Pydantic / JWT
+├── Tools: Docker / Git / Bash / Poetry / Pytest
+└── AI Assistants: Claude / GitHub Copilot
 ```
 
 🔌 Establish Connection
