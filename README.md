@@ -1,4 +1,4 @@
-# Karina/Kariandrrr | Backend Engineer
+# Karina/Kariandrrr | Data Engineer
 
 <p align="center">
   <img src="https://i.redd.it/v396kpeottw71.jpg" width="400" alt="Backend magic">
